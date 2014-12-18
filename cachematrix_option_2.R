@@ -5,7 +5,9 @@
 #
 # This cache is a little bit diferent because the inverse of the matrix is computed
 # within the getInverse() function. From the client function perspective get the inverse
-# is easier.
+# is easier.With the new approach you always retrieves a value when you call getInverse(). 
+# In the end you will only the first function(): inverseCacheableMatrix. 
+# 
 # 
 # The final result maybe is more elegant
 # 
